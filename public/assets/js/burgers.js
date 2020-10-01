@@ -1,25 +1,25 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
-// $(function() {
-//     $(".change-dev").on("click", function(event) {
-//       var id = $(this).data("id");
-//       var newDev = $(this).data("newdev");
+$(function() {
+    $(".change-dev").on("click", function(event) {
+      var id = $(this).data("id");
+      var newDev = $(this).data("newdev");
   
-//       var newDevState = {
-//         devoured: newDev
-//       };
+      var newDevState = {
+        devoured: newDev
+      };
   
-//       // Send the PUT request.
-//       $.ajax("/api/burgers/" + id, {
-//         type: "PUT",
-//         data: newDevState
-//       }).then(
-//         function() {
-//           console.log("changed devoured to", newDev);
-//           // Reload the page to get the updated list
-//           location.reload();
-//         }
-//       );
-//     });
+      // Send the PUT request.
+      $.ajax("/api/burgers/" + id, {
+        type: "PUT",
+        data: newDevState
+      }).then(
+        function() {
+          console.log("changed devoured to", newDev);
+          // Reload the page to get the updated list
+          location.reload();
+        }
+      );
+    });
   
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
@@ -31,7 +31,7 @@
       };
   
       // Send the POST request.
-      $.ajax("/api/cats", {
+      $.ajax("/api/burgers", {
         type: "POST",
         data: newBurg
       }).then(
@@ -42,4 +42,19 @@
         }
       );
     });
-  
+
+    $(".delete-cat").on("click", function(event) {
+        var id = $(this).data("id");
+    
+        // Send the DELETE request.
+        $.ajax("/api/cats/" + id, {
+          type: "DELETE"
+        }).then(
+          function() {
+            console.log("deleted cat", id);
+            // Reload the page to get the updated list
+            location.reload();
+          }
+        );
+      });
+    });
