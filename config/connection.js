@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     password: 'hacktheplanet',
     database: todoagain_db
   });
-};
+}
 
 var connection = mysql.createConnection({
   host: "localhost",
