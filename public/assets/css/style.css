@@ -1,3 +1,11 @@
+body {
+  background-color: tan
+}
+
+h1, h2 {
+  text-align: center;
+}
+
 li {
     padding: 5px;
     margin: 5px;
@@ -8,7 +16,7 @@ li {
     font-weight: bold;
   }
   
-  .create-update-form {
+  .create-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
@@ -17,4 +25,3 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
-  
