@@ -25,9 +25,9 @@
             {{#each burgers}}
             {{#if this.devoured}}
              {{> burgers/burger-block devoured=true}}
-            <div class="devoured-burgers">
+            {{!-- <div class="devoured-burgers">
                 {{this.burger_name}}
-            </div>
+            </div> --}}
             {{/if}}
             {{/each}}
 
