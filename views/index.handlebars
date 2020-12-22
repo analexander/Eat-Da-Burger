@@ -1,10 +1,11 @@
-<h1>Eat Da Burger!</h1>
+<div class="main">
+  <h1>Eat Da Burger!</h1>
 
   <div class="container">
     
 
   <div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
+    <div class="col-sm-6">
       <h2 class="burger-title text-center">Burgers Available</h2><br>
       <div class="available-burgers">
           {{#each burgers}}
@@ -15,7 +16,7 @@
     </div>
   </div>
 
-  <div class="col-sm-6" style="background-color:pink;">
+  <div class="col-sm-6">
       <h2 class="burger-title text-center">Burgers Devoured</h2><br>
      <div class="devoured-burgers">
           {{#each burgers}}
@@ -37,3 +38,5 @@
 
   <button type="submit" class="create-form">Add Burger</button>
 </form>
+
+</div>

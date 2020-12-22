@@ -19,9 +19,19 @@ li {
   .create-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
   }
   
   .form-group {
     margin-bottom: 5px;
   }
+
+  .main {
+    background-image: url("../img/Cute-Summer-Burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+}
