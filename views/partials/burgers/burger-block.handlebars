@@ -1,9 +1,9 @@
 <tr class="table-row">
 	<li>
     <td class="table-first-col">{{burger_name}}</td>
-    <td><button class="change-devour" data-id="{{id}}">
+    <td><button class="change-devour btn btn-outline-dark btn-sm" type="button" data-id="{{id}}">
 		{{#if devoured}}DEVOURED{{else}}DEVOUR IT!{{/if}}
 	</button></td>
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-burger btn btn-outline-dark btn-sm" data-id="{{this.id}}">DELETE!</button>
 	</li> 
 </tr>
