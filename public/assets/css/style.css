@@ -4,12 +4,11 @@ body {
 
 h1, h2 {
   text-align: center;
+  font-family: 'Bungee Shade', cursive;
 }
 
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+    font-family: 'BioRhyme', serif;
   }
   
   .label {
@@ -34,4 +33,30 @@ li {
     width: 100%;
     margin-bottom: 0;
     position: absolute;
+}
+
+.container {
+  padding: 80px;
+  border: 2px solid black;
+  border-style: dotted;
+  border-radius: 25px;
+}
+
+.first {
+  background: rgba(255, 209, 110, 0.5); 
+  padding: 10px; 
+  text-align: justify;
+  border-radius: 25px;
+  border: 2px solid black;
+  border-style: dotted;
+}
+
+.second {
+  background: rgba(255, 209, 110, 0.5); 
+  padding: 10px; 
+  text-align: justify;
+  border-radius: 25px;
+  border: 2px solid black;
+  border-style: dotted;
+  font-family: 'BioRhyme', serif;
 }
