@@ -8,7 +8,7 @@
 
 * Whenever a user submits a burger's name, the application displays the burger on the left side of the page -- waiting to be devoured.
 
-* Each burger in the waiting area also has `DEVOUR IT!` and `DELETE!` buttons. When the user clicks them, the burger will move to the right side of the page or be deleted from the database.
+* Each burger in the waiting area also has `Devour It!` and `Delete!` buttons. When the user clicks them, the burger will either move to the right side of the page or be deleted from the database.
 
 * The application stores every burger in a database, whether devoured or not.
 
@@ -47,7 +47,7 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-@analexander
+[analexander]
 
 ## Tests
 
