@@ -6,16 +6,15 @@ h1 {
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   position: relative;
-  text-shadow: 2px 2px 5px white;
   color: rgb(0, 0, 0);
 }
 
 h2 {
   text-align: center;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Inline', cursive;
   position: relative;
-  text-shadow: 2px 2px 5px black;
-  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px white;
+  color: rgb(0, 0, 0);
 }
 
 li {
@@ -23,20 +22,20 @@ li {
     position: relative;
   }
   
-  .label {
+.label {
     font-weight: bold;
   }
   
-  .create-form {
+.create-form {
     padding: 5px;
     margin: 5px;
   }
   
-  .form-group {
+.form-group {
     margin-bottom: 5px;
   }
 
-  .main {
+.main {
     background-image: url("../img/Cute-Summer-Burger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +58,7 @@ li {
   background: rgba(230, 166, 47, 0.3); 
   padding: 10px; 
   text-align: justify;
+  text-shadow: 2px 2px 5px white;
   border-radius: 25px;
   border: 2px solid black;
   border-style: dotted;
@@ -73,13 +73,10 @@ li {
   border: 2px solid black;
   border-style: dotted;
   font-family: 'BioRhyme', serif;
+  text-shadow: 2px 2px 5px white;
   position: relative;
 }
 
 #bu {
   border-radius: 1rem;
-}
-
-button {
-  box-shadow: 2px 4px 18px #ffffff;
 }
