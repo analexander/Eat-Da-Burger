@@ -2,10 +2,20 @@
   background-color: tan
 } */
 
-h1, h2 {
+h1 {
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   position: relative;
+  text-shadow: 2px 2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  position: relative;
+  text-shadow: 2px 2px 5px black;
+  color: rgb(255, 255, 255);
 }
 
 li {
@@ -46,7 +56,7 @@ li {
 }
 
 .first {
-  background: rgba(230, 166, 47, 0.5); 
+  background: rgba(230, 166, 47, 0.3); 
   padding: 10px; 
   text-align: justify;
   border-radius: 25px;
@@ -56,16 +66,20 @@ li {
 }
 
 .second {
-  background: rgba(230, 166, 47, 0.5); 
+  background: rgba(230, 166, 47, 0.3); 
   padding: 10px; 
-  text-align: justify;
+  text-align: center;
   border-radius: 25px;
   border: 2px solid black;
   border-style: dotted;
   font-family: 'BioRhyme', serif;
-  position: relative
+  position: relative;
 }
 
 #bu {
   border-radius: 1rem;
+}
+
+button {
+  box-shadow: 2px 4px 18px #ffffff;
 }
