@@ -57,7 +57,7 @@ li {
 .first {
   background: rgba(230, 166, 47, 0.3); 
   padding: 10px; 
-  text-align: justify;
+  text-align: center;
   text-shadow: 2px 2px 5px white;
   border-radius: 25px;
   border: 2px solid black;
