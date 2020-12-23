@@ -35,7 +35,9 @@ npm install
 
 ## Usage
 
-This application uses MySQL, Node, Express, Handlebars and a homemade ORM. It follows the MVC design pattern using Node and MySQL to query and route data and Handlebars for the HTML.
+Deployed application: https://mysqlnodeburgers.herokuapp.com/
+
+Eat Da Burger! uses MySQL, Node, Express, Handlebars and a homemade ORM. It follows the MVC design pattern using Node and MySQL to query and route data and Handlebars for the HTML.
 
 ![Eat-Da-Burger](public/assets/img/Eat-Da-Burger.gif)
 
